@@ -1,14 +1,19 @@
 @import '../variables';
 
 .header {
-  border-bottom: 1px solid $gray-line;
-  padding: 40px 0;
+  padding: 20px 0;
 
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+	&__left {
+		width: $left-side-width;
+	}
+
+	&__right {
+		width: $right-side-width;
+	}
+
+	&__center {
+		width: $center-side-width;
+	}
 
   &__logo {
     display: flex;

@@ -1,8 +1,9 @@
 $black: #232323;
-$background: #ffdf8c;
-$gray-line: #f6f6f6;
-$orange: #fe5f1e;
+$background: #f6f8fc;
 
-$container-width: 90%;
+$container-width: 1200px;
+$left-side-width: 185px;
+$right-side-width: 55px;
+$center-side-width: calc(100% - ($left-side-width + $right-side-width));
 
 $duration: 0.15s;
