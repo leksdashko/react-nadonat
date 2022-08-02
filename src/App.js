@@ -1,6 +1,8 @@
-import imgPath from './img/img1.jpeg';
+import { PostVertical } from './components/post';
+import { MenuCategories } from './widgets';
 
 function App() {
+	const posts = [...Array(8)];
   return (
     <div className="App">
       <div className="container">
@@ -20,28 +22,14 @@ function App() {
 				<div className="wrapper">
 					<div className="row space-between">
 						<div className="left-side">
-							<ul className="categories">
-								<li><a href="#a">Category</a></li>
-								<li><a href="#a">Category</a></li>
-								<li><a href="#a">Category</a></li>
-								<li><a href="#a">Category</a></li>
-								<li><a href="#a">Category</a></li>
-								<li><a href="#a">Category</a></li>
-							</ul>
+							<MenuCategories/>
 						</div>
 						<div className="content">
 							<div className="post-wrapper">
 								<div className="row">
-									<div className="post post--v">
-										<div className="post__image-wrapper">
-											<img src={imgPath} alt="Image 1" className="post__image"/>
-										</div>
-										<div className="post__title-wrapper">
-											<h4 className="post__title">
-												<a className="post__title__link" href="#a">Post title</a>
-											</h4>
-										</div>
-									</div>
+									{posts.map(() => 
+										<PostVertical />
+									)}
 								</div>
 							</div>
 						</div>

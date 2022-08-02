@@ -1,9 +1,13 @@
-$black: #232323;
+$black: #001233;
 $background: #f6f8fc;
+
+$post-border: 1px dashed #edeff1;
+$post-hover-background: #f9fbff;
 
 $container-width: 1200px;
 $left-side-width: 185px;
 $right-side-width: 55px;
 $center-side-width: calc(100% - ($left-side-width + $right-side-width));
+$post-v-width: 25%;
 
 $duration: 0.15s;
