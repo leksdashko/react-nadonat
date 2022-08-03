@@ -1,0 +1,7 @@
+@import '../variables';
+
+.categories{
+	&__item.active{
+		background-color: #ccc;
+	}
+}

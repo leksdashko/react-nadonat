@@ -1,0 +1,72 @@
+[
+	{
+		"id": 1,
+		"title": "Панама multicam shadow strategic",
+		"imageUrl": "img/img1.jpeg",
+		"price": 2055,
+		"posted": "07:53",
+		"location": "Борщаговка Софіївська",
+		"category": 1
+	},
+	{
+		"id": 2,
+		"title": "Панама multicam shadow strategic",
+		"imageUrl": "img/img2.jpg",
+		"price": 2055,
+		"posted": "07:53",
+		"location": "Борщаговка Софіївська",
+		"category": 2
+	},
+	{
+		"id": 3,
+		"title": "Панама multicam shadow strategic",
+		"imageUrl": "img/img3.jpg",
+		"price": 2055,
+		"posted": "07:53",
+		"location": "Борщаговка Софіївська",
+		"category": 3
+	},
+	{
+		"id": 4,
+		"title": "Панама multicam shadow strategic",
+		"imageUrl": "img/img4.jpeg",
+		"price": 2055,
+		"posted": "07:53",
+		"location": "Борщаговка Софіївська",
+		"category": 2
+	},
+	{
+		"id": 5,
+		"title": "Панама multicam shadow strategic",
+		"imageUrl": "img/img1.jpeg",
+		"price": 2055,
+		"category": 4
+	},
+	{
+		"id": 6,
+		"title": "Панама multicam shadow strategic",
+		"imageUrl": "img/img3.jpg",
+		"price": 2055,
+		"posted": "07:53",
+		"location": "Борщаговка Софіївська",
+		"category": 5
+	},
+	{
+		"id": 7,
+		"title": "Панама multicam shadow strategic",
+		"imageUrl": "img/img2.jpg",
+		"price": 2055,
+		"posted": "07:53",
+		"location": "Борщаговка Софіївська",
+		"category": 2
+	},
+	{
+		"id": 8,
+		"title": "Панама multicam shadow strategic",
+		"imageUrl": "img/img1.jpeg",
+		"price": 2055,
+		"posted": "07:53",
+		"location": "Борщаговка Софіївська",
+		"category": 3
+	}
+]

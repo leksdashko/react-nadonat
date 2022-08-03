@@ -1,8 +1,8 @@
 import { PostVertical } from './components/post';
 import { MenuCategories } from './widgets';
+import posts from './assets/posts.json';
 
 function App() {
-	const posts = [...Array(8)];
   return (
     <div className="App">
       <div className="container">
@@ -27,8 +27,11 @@ function App() {
 						<div className="content">
 							<div className="post-wrapper">
 								<div className="row">
-									{posts.map(() => 
-										<PostVertical />
+									{posts.map((item) => 
+										<PostVertical 
+											key={item.id}
+											{...item}
+										/>
 									)}
 								</div>
 							</div>
